@@ -1,0 +1,32 @@
+@import url(styles/header.css);
+:root{
+    --cor-de-fundo: #000000;
+    --cor-cabecalho: #FFFFFF;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    margin: 0;
+
+}
+
+.texto1 {
+   color: white ;
+   width: 20px;
+   left: auto;
+
+   
+    
+}
+
+.texto2 {
+    color:#FFFFFF ;
+    left: 30px;
+    
+}
+
+.texto3 {
+    color: rgb(255, 8, 8);
+    width: 1000px;
+    margin-left: 20px;
+}
