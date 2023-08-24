@@ -1,32 +1,48 @@
-@import url(styles/header.css);
-:root{
-    --cor-de-fundo: #000000;
-    --cor-cabecalho: #FFFFFF;
-}
-
-body{
-    background-color: var(--cor-de-fundo);
+body {
+    background-color: white;
     margin: 0;
-
 }
 
-.texto1 {
-   color: white ;
-   width: 20px;
-   left: auto;
-
-   
-    
+.container__titulo {
+    color:white;
 }
 
-.texto2 {
-    color:#FFFFFF ;
-    left: 30px;
-    
+.cabecalho {
+    background-color: black;
+    height: 40px;
+    padding: 1em;
 }
 
-.texto3 {
-    color: rgb(255, 8, 8);
-    width: 1000px;
-    margin-left: 20px;
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__frase {
+    padding: 1em;
+}
+
+.container__frase {
+    display: none;
+}
+
+@media screen and (min-width: 820px) {
+
+    .container__titulo,
+    .container__titulo--negrito {
+        font-size: 30px;
+    }
+
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container__frase {
+        padding-left: 5em;
+        font-size: 20px;
+        display: block;
+    }
 }
