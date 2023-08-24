@@ -4,13 +4,14 @@ body {
 }
 
 .container__titulo {
+    font: bold;
     color:white;
+    height: 35px;
 }
 
 .cabecalho {
     background-color: black;
-    height: 40px;
-    padding: 1em;
+    height: 60px;
 }
 
 .container {
@@ -19,12 +20,12 @@ body {
 }
 
 .container__frase {
-    padding: 1em;
+    color: white;
+    width: 300px;
+    margin-left: 1450px;
 }
 
-.container__frase {
-    display: none;
-}
+
 
 @media screen and (min-width: 820px) {
 
@@ -46,3 +47,8 @@ body {
         display: block;
     }
 }
+
+.containerimg {
+    width: 60px;
+}
+
