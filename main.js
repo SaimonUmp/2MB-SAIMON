@@ -1,1 +1,1 @@
-alert("las") ;
+alert("Bem-vindo a Discoteca Pub's") ;
