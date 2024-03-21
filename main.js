@@ -1,1 +1,0 @@
-alert("Bem-vindo a Discoteca Pub's") ;
